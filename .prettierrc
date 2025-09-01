@@ -16,10 +16,8 @@
     "^@/pages(/.*)?$",
 
     "^@/.*$",
-    "^[./]",
     "^.+\\.css$"
   ],
   "importOrderSeparation": true,
-  "importOrderSortSpecifiers": true,
-  "importOrderGroupNamespaceImport": true
+  "importOrderSortSpecifiers": true
 }

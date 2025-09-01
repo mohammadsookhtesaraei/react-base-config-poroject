@@ -1,10 +1,7 @@
+import { createRoot } from 'react-dom/client';
 
-import { createRoot } from 'react-dom/client'
-import './global.css'
-import App from './App.tsx'
+import App from './App.tsx';
 
-createRoot(document.getElementById('root')!).render(
+import './global.css';
 
-    <App />
- 
-)
+createRoot(document.getElementById('root')!).render(<App />);
