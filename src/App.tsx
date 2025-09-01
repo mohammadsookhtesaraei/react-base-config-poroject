@@ -1,9 +1,7 @@
 import type { ReactNode } from 'react';
 
 const App = (): ReactNode => {
-  return <di>
-
-  </di>;
+  return <div></div>;
 };
 
 export default App;
